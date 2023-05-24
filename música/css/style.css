@@ -1,0 +1,258 @@
+
+  body, html, main{
+    background-color: #000116;
+   overflow-x: hidden;
+   width: 100vw;
+   height: 100vh;
+    
+    }
+
+  .col-md-4{
+    padding-bottom: 33px !important;
+  }
+
+  div{
+    color: rgb(255, 255, 255);
+
+}
+
+#logo{
+  width: 120px;
+}
+
+#icon{
+  width: 8%;
+}
+
+
+
+  .cabecalho {
+    background-image: url(../img/cabecalho.jpg);
+    background-color: #000116;
+    width: 100vw;
+    height: 10%;
+    display: flex; /* Alinha horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: flex-start; /* Alinha os elementos à esquerda do container */
+    background-repeat: no-repeat; /* Não duplica a imagem do background */
+    background-position: center; /* Centraliza a imagem */
+    background-size: cover;
+  }
+
+  
+  .categoria {
+    margin-left: 2%;
+    color: aliceblue;
+  }
+
+a{
+  text-decoration: none !important;
+ }
+
+  
+  #pesquisar, .pesquisar {
+    margin-left: 10%; 
+    width: 25%;
+    height: 43px;
+    border-radius: 22px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    background-size: cover;
+    justify-content: flex-start;
+    background-color:  rgba(0, 0, 0, 0.3);
+    border-color: black;
+    color: rgb(255, 255, 255);
+
+  }
+  
+  #lupa {
+    width: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: -3%;
+    margin-top: -2px;
+  }
+  
+  .titulo{
+    margin-left: -12%;
+    padding-top: 4%;
+    color: #D80BB5;
+    font-weight: 600;
+    align-items: center;
+    
+  }
+
+  .introdução{
+    margin-left: 2%;
+    color: #f9f9f9;
+    font-size: 22px;
+    margin-top: -5%;
+  }
+
+  #gif{
+    align-items: center;
+    margin-left: -3%;
+    margin-top: -2%;
+  }
+
+   #event, #topplay, #alta, h3{
+    text-decoration: none;
+    color: white;
+    padding-left: 57px;
+    margin-top: 5%;
+  }
+
+  #cat{
+    color: #ffffff;
+  }
+
+  #lupa:hover {
+    transform: scale(0.9);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+
+  audio{
+    margin-left: 4%;
+    width: 90%;
+  }
+
+.text{
+  margin-left: 200px;
+ 
+}
+
+
+b{
+  padding-left: 8.5%;
+}
+
+.pesquisar{
+  margin-left: 14%;
+  margin-top: -40px;
+  
+}
+
+#traduzir{
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 600;
+  background-color:  #D80BB5;
+  width: 123px;
+  padding: 0.5%;
+}
+
+#traduzir:hover{
+  border-radius: 8px;
+  color: #D80BB5;
+  font-weight: 600;
+  background-color:  #ffffff;
+  width: 123px;
+  padding: 0.5%;
+}
+
+
+
+#intro{
+  margin-left: -12%;
+}
+
+
+/* Estilos para telas grandes */
+body, html, main {
+  background-color: #000116;
+  overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cabecalho {
+  background-image: url(../img/cabecalho.jpg);
+  background-color: #000116;
+  width: 100vw;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.introdução {
+  margin-left: 32%;
+  align-items: center;
+  color: #f9f9f9;
+  font-size: 22px;
+}
+
+h3{
+  margin-left: 26%;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.text {
+  margin-left: 200px;
+}
+
+/* Estilos para telas menores */
+@media screen and (max-width: 768px) {
+  .cabecalho {
+    height: 15%;
+    
+  }
+  
+  #pesquisar{
+    width: 65%;
+  }
+  
+  #lupa{
+    margin-left: 55%;
+  }
+
+  .introdução {
+    margin-left: 10%;
+    font-size: 18px;
+  }
+  
+  .text {
+    margin-left: 10px;
+  }
+}
+
+/* Estilos para telas ainda menores, como tablets e celulares */
+@media screen and (max-width: 480px) {
+  .cabecalho {
+    height: 20%;
+  }
+  
+
+  .pesquisa{
+    margin-top: 12%;
+    
+  }
+
+
+
+  .introdução {
+    margin-left: 5%;
+    font-size: 16px;
+  }
+  
+  #intro{
+    margin-left: 6%;
+  }
+  .text {
+    margin-left: 5px;
+  }
+}
+
+
+
